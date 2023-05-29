@@ -1,0 +1,154 @@
+/*
+
+Colors: 
+● Black: #000000
+● White: #FFFFFF
+● Gainsboro(Gray): #DCDCDC
+● Midnight Blue: #191970
+● SteelBlue: #4682B4
+● Gold: #FFD700
+● Light-yellow: #FFE65D
+
+*/
+
+.hide{
+  display: none;
+}
+
+.rounded-input-block{ /*rounded input, add width as is needed*/
+  width: 100%;
+  min-height: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 1px #a9a9a9;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 0px;
+}
+
+.rounded-button{
+  border-radius: 30px;
+  border-width: 0px;
+  padding: 0px;
+}
+
+.rounded-button-dark{
+  min-height:40px;
+  border-radius: 30px;
+  border-width: 0px;
+  color:#ffffff;
+  background:#191970;
+  padding: 0px;
+}
+
+.rounded-button-danger{
+  min-height:40px;
+  border-radius: 30px;
+  border-width: 0px;
+  color:#ffffff;
+  background:#ba0202;
+  padding: 0px;
+}
+
+.rounded-button-dark-d{ /* rounded button dark disabled*/
+  min-height:40px;
+  border-radius: 30px;
+  border-width: 0px;
+  color:#ffffff;
+  background:#4e4e4e;
+  padding: 0px;
+}
+
+.center-container{ /* container will align all of its items
+  at the center and display them in a column */
+  text-align: center;
+  border-radius: 30px;
+  background: rgb(255,255,255);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px
+}
+
+.container{
+  text-align: left;
+  border-radius: 30px;
+  background: rgb(255,255,255);
+  padding: 40px;
+}
+
+.container-gray{
+  text-align: left;
+  border-radius: 30px;
+  background: #DCDCDC;
+  padding: 40px;
+}
+
+.header-dark{
+  color:#191970
+}
+
+.documents-table{
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  text-align: left;
+}
+
+.documents-table thead tr{
+  color: #191970;
+  text-align: left;
+}
+
+.documents-table tbody tr:hover{
+  background-color: #DCDCDC;
+}
+
+.documents-table th, .documents-table td{
+  padding: 20px 0%;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+.documents-dropdown{
+  background-color: lightblue;
+	position: static;
+	height: 150px;
+	right: 0;
+	width: 200px;
+	z-index: 9999;
+}
+
+.file-input-label-unselected{
+    display: inline-block;
+    background-color: #191970;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.file-input-label-selected{
+  display: inline-block;
+  background-color: #07d100;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.valid {
+  border: 2px solid green;
+}
+
+.invalid {
+  border: 2px solid red;
+}
